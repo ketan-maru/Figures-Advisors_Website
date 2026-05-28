@@ -1,0 +1,11 @@
+# Figures Advisors – Netlify Redirects
+# Clean URLs: strips .html extension for shareable links
+
+/privacy                      /privacy.html                    200
+/terms-of-use                 /terms-of-use.html               200
+/cookies                      /cookies.html                    200
+/client-services-agreement    /client-services-agreement.html  200
+/resources                    /resources.html                  200
+
+# Catch-all 404 (optional – serve homepage for unknown paths)
+# /*    /index.html    200
